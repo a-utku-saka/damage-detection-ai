@@ -13,19 +13,19 @@ Are your packages mysteriously arriving in a damaged state? Do you struggle with
 
 ## ⚡ Why Is This Project Revolutionary? 🔥
 
-✅ **Advanced AI-Powered Image Analysis** – No more human guesswork! Let AI take care of damage detection with unmatched precision. 🔍🤖
-✅ **Seamless Web Integration** – Upload images, analyze damages, and receive reports instantly! 🚀
-✅ **Multi-Language Support** – Detect damages in English, Turkish, Spanish, French, and more! 🌍
-✅ **Scalable & Efficient** – Handles thousands of images without breaking a sweat! 🏗️
-✅ **Open-Source & Developer-Friendly**– Contribute and customize as you wish! 👨‍💻
+- ✅ **Advanced AI-Powered Image Analysis** – No more human guesswork! Let AI take care of damage detection with unmatched precision. 🔍🤖
+- ✅ **Seamless Web Integration** – Upload images, analyze damages, and receive reports instantly! 🚀
+- ✅ **Multi-Language Support** – Detect damages in English, Turkish, Spanish, French, and more! 🌍
+- ✅ **Scalable & Efficient** – Handles thousands of images without breaking a sweat! 🏗️
+- ✅ **Open-Source & Developer-Friendly**– Contribute and customize as you wish! 👨‍💻
 
 ## 🛠️ Tech Stack & Tools 🔧
 
-💻 **Backend**: Flask (Python) 🐍
-🎨 **Frontend**: HTML, CSS, JavaScript (Vanilla) 🎨
-🤖 **AI Model**: OpenAI’s GPT-based Vision Model 🔍
-📦 **Database**: NoSQL for rapid image processing ⚡
-🌍 **Multi-Language Support**: Accepts Accept-Language header for dynamic language detection 📢
+- 💻 **Backend**: Flask (Python) 🐍
+- 🎨 **Frontend**: HTML, CSS, JavaScript (Vanilla) 🎨
+- 🤖 **AI Model**: OpenAI’s GPT-based Vision Model 🔍
+- 📦 **Database**: NoSQL for rapid image processing ⚡
+- 🌍 **Multi-Language Support**: Accepts Accept-Language header for dynamic language detection 📢
 
 ## 🏗️ How to Install & Run Locally ⚙️
 
@@ -45,16 +45,16 @@ pip install -r requirements.txt
 python app.py
 
 http://127.0.0.1:5000/
-
-Visit http://127.0.0.1:5000/ in your browser! 🎉
 ```
+- Visit http://127.0.0.1:5000/ in your browser! 🎉
+
 ## 🚀 How It Works 🎬
 
-1️⃣ Upload Two Images of the Package 📷📷
-2️⃣ AI Analyzes the Damage 🔍
-3️⃣ Determines Type, Severity, and Likely Cause 💥
-4️⃣ Provides Recommendations for Prevention ✅
-5️⃣ Saves Money, Time, and Headaches! 🤑💡
+- 1️⃣ Upload Two Images of the Package 📷📷
+- 2️⃣ AI Analyzes the Damage 🔍
+- 3️⃣ Determines Type, Severity, and Likely Cause 💥
+- 4️⃣ Provides Recommendations for Prevention ✅
+- 5️⃣ Saves Money, Time, and Headaches! 🤑💡
 
 ## 📸 Screenshots 📷
 
@@ -64,37 +64,33 @@ Visit http://127.0.0.1:5000/ in your browser! 🎉
 
 Damage Detection AI dynamically detects your preferred language through Accept-Language headers and adapts the output accordingly! Currently supported languages:
 
-🇬🇧 English
-
-🇹🇷 Turkish
-
-🇪🇸 Spanish
-
-🇫🇷 French
-
-🇩🇪 German
+- 🇬🇧 English
+- 🇹🇷 Turkish
+- 🇪🇸 Spanish
+- 🇫🇷 French
+- 🇩🇪 German
 
 Want more languages? Open a pull request! 💪
 
 ## 🛡️ Security & Privacy 🔐
 
-✅ **Secure API Requests**  – No personal data is stored. 🔒
-✅ **Images are deleted after processing** – We respect your privacy. 🗑️
-✅ **No external dependencies** – Runs locally without internet dependency (except for OpenAI API). 🌍
+- ✅ **Secure API Requests**  – No personal data is stored. 🔒
+- ✅ **Images are deleted after processing** – We respect your privacy. 🗑️
+- ✅ **No external dependencies** – Runs locally without internet dependency (except for OpenAI API). 🌍
 
 ## 🎯 Who Can Benefit? 👥
 
-✅ **E-commerce Businesses** – Save money by identifying shipping damages early! 💰
-✅ **Logistics & Warehousing Companies** – Automate damage assessment! 📦
-✅ **Individuals Sending Fragile Packages** – Get AI-generated insights! 🎁
-✅ **Developers & AI Enthusiasts** – Learn and contribute to an awesome open-source project! 👨‍💻
+- ✅ **E-commerce Businesses** – Save money by identifying shipping damages early! 💰
+- ✅ **Logistics & Warehousing Companies** – Automate damage assessment! 📦
+- ✅ **Individuals Sending Fragile Packages** – Get AI-generated insights! 🎁
+- ✅ **Developers & AI Enthusiasts** – Learn and contribute to an awesome open-source project! 👨‍💻
 🏆 **Contributing & Development** 💡
 
 Want to contribute? Follow these steps:
-1️⃣ Fork the repository 🍴
-2️⃣ Create a feature branch (git checkout -b feature-xyz)
-3️⃣ Commit your changes (git commit -m "Added awesome feature 🚀")
-4️⃣ Push and submit a Pull Request 📩
+- 1️⃣ Fork the repository 🍴
+- 2️⃣ Create a feature branch (git checkout -b feature-xyz)
+- 3️⃣ Commit your changes (git commit -m "Added awesome feature 🚀")
+- 4️⃣ Push and submit a Pull Request 📩
 
 ## ⭐ Support & Feedback 🗣️
 
