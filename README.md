@@ -31,7 +31,7 @@ Are your packages mysteriously arriving in a damaged state? Do you struggle with
 
 Clone the repository:
 
- git clone https://github.com/YOUR_USERNAME/damage-detection-ai.git
+ git clone https://github.com/a-utku-saka/damage-detection-ai.git
  cd damage-detection-ai
 
 Set up a virtual environment:
