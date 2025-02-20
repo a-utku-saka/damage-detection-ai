@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kargo Hasar Tespiti</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <h1>📦 Kargo Hasar Tespiti</h1>
+   
+    <label for="language">🌍 Dil Seçimi:</label>
+      
+    <select id="language">
+        <option value="tr-tr" selected>🇹🇷 Türkçe</option>
+        <option value="en-us">🇬🇧 English</option>
+        <option value="de-de">🇩🇪 Deutsch</option>
+        <option value="fr-fr">🇫🇷 Français</option>
+        <option value="es-es">🇪🇸 Español</option>
+    </select>
+    
+    <div class="form-container">
+        <form id="uploadForm" enctype="multipart/form-data">
+            <label>📷 Resim 1:</label>
+            <input type="file" id="image1" name="image1" accept="image/*" required>
+
+            <label>📷 Resim 2:</label>
+            <input type="file" id="image2" name="image2" accept="image/*" required>
+
+            <button type="submit">🔍 Hasarı Tespit Et</button>
+        </form>
+    </div>
+
+    <p id="loading" style="display:none; font-size: 16px; color: #3498db;">Lütfen bekleyin, analiz yapılıyor...</p>
+
+    <div id="result" class="result-container"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+

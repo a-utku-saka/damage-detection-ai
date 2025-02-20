@@ -1,0 +1,41 @@
+prompts:
+  - prompt_name: detect_damage
+    prompt: |
+      Detect the damages in the image in {{language}}.  
+      Identify the **type of damage** and categorize it into one of the following:
+        - **Surface Damage** (Scratches, paint wear, impact marks)  
+        - **Structural Damage** (Cracks, breaks, bends)  
+        - **Packaging Damage** (Tears, dents, punctures, water exposure)  
+        - **Content Damage** (Electronic failure, liquid leakage, missing parts)  
+
+      Determine the **cause of the damage**, considering:
+        - **Manufacturing defects**  
+        - **Storage conditions** (humidity, temperature, improper stacking)  
+        - **Transport conditions** (falling, shock, misplacement)  
+        - **Delivery process** (poor packaging, excessive pressure)  
+
+      Analyze the **severity of the damage** and classify it as:
+        - **Minor Damage** (small scratches, slight dents)  
+        - **Moderate Damage** (visible but does not affect function)  
+        - **Severe Damage** (product is non-functional)  
+
+      Assess the **likelihood that the damage was caused by shipping** (0-100%).  
+
+      Provide feedback to the seller with **suggestions for improving packaging or handling**.  
+
+      Return the response in the following JSON format:
+      ```json
+      {
+        "damage": {
+          "DamageType": "Crack",
+          "DamageCategory": "Structural Damage",
+          "DamageCause": "Improper handling during transport",
+          "DamageSeverity": "Severe Damage",
+          "CargoDamageProbability": 85,
+          "Recommendations": [
+            "Use better protective cushioning",
+            "Reinforce fragile areas",
+            "Ensure proper handling during shipping"
+          ]
+        }
+      }

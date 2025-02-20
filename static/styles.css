@@ -1,0 +1,128 @@
+/* === GENERAL PAGE STYLES === */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* === HEADING DESIGN === */
+h1 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-top: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* === FORM BOX === */
+.form-container {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+/* === LABEL AND INPUT STYLE === */
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px dashed #3498db;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    text-align: center;
+    background: #ecf0f1;
+}
+
+/* === BUTTON STYLE === */
+button {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+/* === RESULT AREA === */
+.result-container {
+    display: none;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    text-align: left;
+}
+
+/* === DAMAGE REPORT === */
+.damage-report h3 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.damage-report p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.damage-report ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.damage-report li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #27ae60;
+}
+
+/* === DAMAGE LEVEL COLORING === */
+.severe {
+    color: red;
+    font-weight: bold;
+}
+
+.moderate {
+    color: orange;
+    font-weight: bold;
+}
+
+.minor {
+    color: green;
+    font-weight: bold;
+}
+
+/* === MOBILE COMPATIBILITY === */
+@media (max-width: 600px) {
+    .form-container, .result-container {
+        width: 90%;
+    }
+}
