@@ -4,12 +4,12 @@ Are your packages mysteriously arriving in a damaged state? Do you struggle with
 🚀 Powered by state-of-the-art AI and deep learning, this system detects, categorizes, and analyzes package damages with pinpoint accuracy.  
 ## 🎯 What Does This Project Do? 🏆
 
-✅ **Analyzes package images** using AI-powered vision models 📷
-✅ **Determines the type and severity** of the damage 💥
-✅ **Identifies if the damage** was caused during transportation 🚚
-✅ **Provides actionable recommendations** to prevent future damage 🛡️
-✅ **Supports multiple languages** for global users 🌎
-✅ **Easy-to-use web interface** for seamless interaction 🖥️
+-✅ **Analyzes package images** using AI-powered vision models 📷
+-✅ **Determines the type and severity** of the damage 💥
+-✅ **Identifies if the damage** was caused during transportation 🚚
+-✅ **Provides actionable recommendations** to prevent future damage 🛡️
+-✅ **Supports multiple languages** for global users 🌎
+-✅ **Easy-to-use web interface** for seamless interaction 🖥️
 
 ## ⚡ Why Is This Project Revolutionary? 🔥
 
